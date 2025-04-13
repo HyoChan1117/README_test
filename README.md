@@ -9,57 +9,55 @@ AI를 활용해 교실 소음을 실시간으로 분석하고,
 
 ## 📂 REPOSITORY 구조도
 
+<img src="https://github.com/HyoChan1117/HyoChan1117/raw/master/team_project-structure.drawio.png" alt="Project Structure" width="60%">
+
+<br>
+
+### 📁 디렉토리 설명
+
 <table>
   <tr>
-    <td width="50%">
-      <img src="https://github.com/HyoChan1117/HyoChan1117/raw/master/team_project-structure.drawio.png" alt="Project Structure" width="100%">
-    </td>
-    <td width="50%">
-      <table>
-        <tr>
-          <th>디렉토리</th>
-          <th>설명</th>
-        </tr>
-        <tr>
-          <td><code>src/</code></td>
-          <td>학습, 예측, 모델 정의 등 공통 코드</td>
-        </tr>
-        <tr>
-          <td><code>dev/</code></td>
-          <td>팀원별 실험 공간 (브랜치 기반)</td>
-        </tr>
-        <tr>
-          <td><code>models/</code></td>
-          <td>학습된 모델 저장 (.pth 등)</td>
-        </tr>
-        <tr>
-          <td><code>outputs/</code></td>
-          <td>시각화, 로그, 평가 결과 저장</td>
-        </tr>
-        <tr>
-          <td><code>data/</code></td>
-          <td>공통 오디오 데이터셋</td>
-        </tr>
-        <tr>
-          <td><code>docker/</code></td>
-          <td>Docker 실행 환경 파일</td>
-        </tr>
-        <tr>
-          <td><code>scripts/</code></td>
-          <td>유틸 스크립트, 정리 도구</td>
-        </tr>
-        <tr>
-          <td><code>test/</code></td>
-          <td>샘플 테스트 오디오</td>
-        </tr>
-        <tr>
-          <td><code>.gitignore</code></td>
-          <td>Git 추적 제외 항목 설정</td>
-        </tr>
-      </table>
-    </td>
+    <th>디렉토리</th>
+    <th>설명</th>
+  </tr>
+  <tr>
+    <td><code>src/</code></td>
+    <td>학습, 예측, 모델 정의 등 공통 코드</td>
+  </tr>
+  <tr>
+    <td><code>dev/</code></td>
+    <td>팀원별 실험 공간 (브랜치 기반)</td>
+  </tr>
+  <tr>
+    <td><code>models/</code></td>
+    <td>학습된 모델 저장 (.pth 등)</td>
+  </tr>
+  <tr>
+    <td><code>outputs/</code></td>
+    <td>시각화, 로그, 평가 결과 저장</td>
+  </tr>
+  <tr>
+    <td><code>data/</code></td>
+    <td>공통 오디오 데이터셋</td>
+  </tr>
+  <tr>
+    <td><code>docker/</code></td>
+    <td>Docker 실행 환경 파일</td>
+  </tr>
+  <tr>
+    <td><code>scripts/</code></td>
+    <td>유틸 스크립트, 정리 도구</td>
+  </tr>
+  <tr>
+    <td><code>test/</code></td>
+    <td>샘플 테스트 오디오</td>
+  </tr>
+  <tr>
+    <td><code>.gitignore</code></td>
+    <td>Git 추적 제외 항목 설정</td>
   </tr>
 </table>
+
 ---
 
 ## ⚙️ 사용 기술 스택
