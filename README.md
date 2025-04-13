@@ -9,11 +9,11 @@ AI를 활용해 교실 소음을 실시간으로 분석하고,
 
 ## 📂 REPOSITORY 구조도
 
-<img src="https://github.com/HyoChan1117/HyoChan1117/raw/master/team_project-structure.drawio.png" alt="Project Structure" width="60%">
+<img src="https://github.com/HyoChan1117/HyoChan1117/raw/master/team_project-structure.drawio.png" alt="Project Structure" width="80%">
 
-<br>
+---
 
-### 📁 디렉토리 설명
+## 📁 디렉토리 설명
 
 <table>
   <tr>
